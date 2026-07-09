@@ -1,0 +1,14 @@
+name = "secure-landing"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# Bind this Worker to your route/domain in the Cloudflare dashboard,
+# or uncomment and edit one of the options below.
+
+# Option A: run on a workers.dev subdomain (default, no domain needed)
+workers_dev = true
+
+# Option B: attach to a custom domain/route you manage in Cloudflare
+# routes = [
+#   { pattern = "landing.example.com/*", zone_name = "example.com" }
+# ]
